@@ -1,0 +1,2 @@
+# CSS Specificity Bug
+This repository demonstrates a subtle bug related to CSS selector specificity that can be easily overlooked. The bug is caused by unexpected selector overrides due to the specific order of selectors in your stylesheet.  The `bug.css` file contains the erroneous CSS and `bugSolution.css` illustrates the solution. Refer to the content of the files for further detail on the bug and its solution.
