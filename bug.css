@@ -1,0 +1,14 @@
+The following CSS code snippet demonstrates an uncommon error related to the specificity of CSS selectors:
+
+```css
+div.container p {
+  color: blue;
+}
+
+.container p {
+  color: red;
+}
+
+```
+
+In this case, both selectors target the same HTML element (a paragraph within a div with the class "container"). The first selector (`div.container p`) uses a more specific selector than the second selector (`.container p`). As per CSS specificity rules, the first selector will always override the second one.
